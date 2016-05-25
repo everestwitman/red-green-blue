@@ -8,25 +8,15 @@
 	transition: all .1s linear;
 }
 
-.red_card {
-	background: red;
-}
+.red_card {background: red;}
 
-.green_card {
-	background: green;
-}
+.green_card {background: green;}
 
-.blue_card {
-	background: blue;
-}
+.blue_card {background: blue;}
 
-.hand {
-	position: absolute;
-}
+.hand {position: absolute;}
 
-.hand .card:hover {
-	transform: translateY(-25px);
-}
+.hand .card:hover {transform: translateY(-25px);}
 
 .my_hand{
 	bottom: 20px;
@@ -38,13 +28,9 @@
 	left: 20px;
 }
 
-.opponent_hand .card {
+.opponent_hand .card {}
 
-}
-
-.opponent_hand .card:hover {
-	transform: translateY(25px);
-}
+.opponent_hand .card:hover {transform: translateY(25px);}
 
 .table {
 	margin: auto;
