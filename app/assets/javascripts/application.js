@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function(event){
+  var game = new Game();
+  game.setup_game();
+})
+
